@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roamora - Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">🧭 Roamora</a>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="product.html">Cars</a>
+    <a href="about.html">About Us</a>
+    <a href="cart.html">Cart <span id="count">0</span></a>
+  </div>
+</nav>
+<main>
+<div class="hero">
+  <h1>Drive your next story.</h1>
+  <p>Simple, friendly car rentals. Pick a car and go.</p>
+  <a class="btn" href="product.html">See all cars</a>
+</div>
+<h2>Popular cars</h2>
+<div class="grid" id="list"></div>
+</main>
+<footer>© 2026 Roamora · Work in progress</footer>
+<script src="script.js"></script>
+<script>showCars("all", 3);</script></body></html>

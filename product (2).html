@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roamora - Zippy Mini</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">🧭 Roamora</a>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="product.html">Cars</a>
+    <a href="about.html">About Us</a>
+    <a href="cart.html">Cart <span id="count">0</span></a>
+  </div>
+</nav>
+<main>
+<p><a href="product.html">← Back to cars</a></p>
+<div class="detail">
+  <div class="big">🚗</div>
+  <div>
+    <h2>Zippy Mini</h2>
+    <p>A small, fuel-saving car that is easy to park. Perfect for city trips.</p>
+    <ul><li>Type: Compact</li><li>Seats: 4</li><li>Transmission: Automatic</li><li>Fuel: Gasoline</li></ul>
+    <div class="price">₱1,500 / day</div>
+    <p>Days: <input type="number" id="days" value="1" min="1" style="width:60px"></p>
+    <button class="btn" onclick="addToCart(1)">Add to cart</button>
+  </div>
+</div>
+</main>
+<footer>© 2026 Roamora · Work in progress</footer>
+<script src="script.js"></script>
+</body></html>

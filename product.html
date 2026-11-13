@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roamora - Cars</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">🧭 Roamora</a>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="product.html">Cars</a>
+    <a href="about.html">About Us</a>
+    <a href="cart.html">Cart <span id="count">0</span></a>
+  </div>
+</nav>
+<main>
+<h2>Our cars</h2>
+<div class="tabs">
+  <button class="btn alt" onclick="showCars('all')">All</button>
+  <button class="btn alt" onclick="showCars('Compact')">Compact</button>
+  <button class="btn alt" onclick="showCars('SUV')">SUV</button>
+  <button class="btn alt" onclick="showCars('Van')">Van</button>
+</div>
+<div class="grid" id="list"></div>
+</main>
+<footer>© 2026 Roamora · Work in progress</footer>
+<script src="script.js"></script>
+<script>showCars("all");</script></body></html>

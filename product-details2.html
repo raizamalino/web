@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roamora - Trail Boss</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">🧭 Roamora</a>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="product.html">Cars</a>
+    <a href="about.html">About Us</a>
+    <a href="cart.html">Cart <span id="count">0</span></a>
+  </div>
+</nav>
+<main>
+<p><a href="product.html">← Back to cars</a></p>
+<div class="detail">
+  <div class="big">🚙</div>
+  <div>
+    <h2>Trail Boss</h2>
+    <p>A strong 7-seater SUV made for family trips and rough roads.</p>
+    <ul><li>Type: SUV</li><li>Seats: 7</li><li>Transmission: Manual</li><li>Fuel: Diesel</li></ul>
+    <div class="price">₱3,200 / day</div>
+    <p>Days: <input type="number" id="days" value="1" min="1" style="width:60px"></p>
+    <button class="btn" onclick="addToCart(3)">Add to cart</button>
+  </div>
+</div>
+</main>
+<footer>© 2026 Roamora · Work in progress</footer>
+<script src="script.js"></script>
+</body></html>
